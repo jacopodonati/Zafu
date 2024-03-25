@@ -10,6 +10,8 @@ import SwiftData
 
 @main
 struct ZafuApp: App {
+    @EnvironmentObject var timerData: TimerData
+    
     var sharedModelContainer: ModelContainer = {
         let schema = Schema([
             Item.self,
@@ -25,7 +27,7 @@ struct ZafuApp: App {
 
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView(timerData: TimerData())
         }
         .modelContainer(sharedModelContainer)
     }

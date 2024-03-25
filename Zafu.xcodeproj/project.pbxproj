@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EA2D18102BB1D29100924D5C /* TimerProgrammingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA2D180F2BB1D29100924D5C /* TimerProgrammingView.swift */; };
 		EAD705A52B80C05C001B1073 /* ZafuApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAD705A42B80C05C001B1073 /* ZafuApp.swift */; };
 		EAD705A72B80C05C001B1073 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAD705A62B80C05C001B1073 /* ContentView.swift */; };
 		EAD705A92B80C05C001B1073 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAD705A82B80C05C001B1073 /* Item.swift */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		EA2D180F2BB1D29100924D5C /* TimerProgrammingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerProgrammingView.swift; sourceTree = "<group>"; };
 		EAD705A12B80C05C001B1073 /* Zafu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Zafu.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EAD705A42B80C05C001B1073 /* ZafuApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZafuApp.swift; sourceTree = "<group>"; };
 		EAD705A62B80C05C001B1073 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -98,6 +100,7 @@
 			children = (
 				EAD705A42B80C05C001B1073 /* ZafuApp.swift */,
 				EAD705A62B80C05C001B1073 /* ContentView.swift */,
+				EA2D180F2BB1D29100924D5C /* TimerProgrammingView.swift */,
 				EAD705A82B80C05C001B1073 /* Item.swift */,
 				EAD705AA2B80C05E001B1073 /* Assets.xcassets */,
 				EAD705AC2B80C05E001B1073 /* Preview Content */,
@@ -260,6 +263,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EA2D18102BB1D29100924D5C /* TimerProgrammingView.swift in Sources */,
 				EAD705A72B80C05C001B1073 /* ContentView.swift in Sources */,
 				EAD705A92B80C05C001B1073 /* Item.swift in Sources */,
 				EAD705A52B80C05C001B1073 /* ZafuApp.swift in Sources */,
