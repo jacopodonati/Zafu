@@ -56,7 +56,7 @@ struct ContentView: View {
                 )
             }
             .padding()
-            .navigationBarItems(trailing: Button("Modifica") {
+            .navigationBarItems(trailing: Button("Edit") {
                 print(timerData.totalSeconds)
                 isTimerProgrammingViewPresented = true
             })
@@ -123,7 +123,7 @@ struct TimerControlsView: View {
                     timer?.invalidate()
                 }
             }) {
-                Text(isTimerRunning ? "Stop": "Avvia")
+                Text(isTimerRunning ? "Stop": "Start")
                     .font(.headline)
                     .padding()
                     .foregroundColor(.white)
@@ -154,5 +154,6 @@ struct TimerControlsView: View {
 #Preview {
     ContentView(timerData: TimerData())
         .modelContainer(for: Item.self, inMemory: true)
+        .environment(\.locale, .init(identifier: "it"))
         .environmentObject(TimerData())
 }

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EA0234212BB213A500E90D7F /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = EA0234202BB213A500E90D7F /* Localizable.xcstrings */; };
 		EA2D18102BB1D29100924D5C /* TimerProgrammingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA2D180F2BB1D29100924D5C /* TimerProgrammingView.swift */; };
 		EAD705A52B80C05C001B1073 /* ZafuApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAD705A42B80C05C001B1073 /* ZafuApp.swift */; };
 		EAD705A72B80C05C001B1073 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAD705A62B80C05C001B1073 /* ContentView.swift */; };
@@ -36,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		EA0234202BB213A500E90D7F /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
 		EA2D180F2BB1D29100924D5C /* TimerProgrammingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerProgrammingView.swift; sourceTree = "<group>"; };
 		EAD705A12B80C05C001B1073 /* Zafu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Zafu.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EAD705A42B80C05C001B1073 /* ZafuApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZafuApp.swift; sourceTree = "<group>"; };
@@ -78,6 +80,7 @@
 		EAD705982B80C05C001B1073 = {
 			isa = PBXGroup;
 			children = (
+				EA0234202BB213A500E90D7F /* Localizable.xcstrings */,
 				EAD705A32B80C05C001B1073 /* Zafu */,
 				EAD705B62B80C05E001B1073 /* ZafuTests */,
 				EAD705C02B80C05E001B1073 /* ZafuUITests */,
@@ -219,6 +222,7 @@
 			knownRegions = (
 				en,
 				Base,
+				it,
 			);
 			mainGroup = EAD705982B80C05C001B1073;
 			productRefGroup = EAD705A22B80C05C001B1073 /* Products */;
@@ -239,6 +243,7 @@
 			files = (
 				EAD705AE2B80C05E001B1073 /* Preview Assets.xcassets in Resources */,
 				EAD705AB2B80C05E001B1073 /* Assets.xcassets in Resources */,
+				EA0234212BB213A500E90D7F /* Localizable.xcstrings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -355,7 +360,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -412,7 +417,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;

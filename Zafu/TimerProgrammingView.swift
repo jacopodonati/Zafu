@@ -14,18 +14,18 @@ struct TimerProgrammingView: View {
     var body: some View {
         VStack {
             HStack {
-                Picker(selection: $timerData.selectedHours, label: Text("Seleziona ore")) {
+                Picker(selection: $timerData.selectedHours, label: Text("Select hours")) {
                     ForEach(0..<24) { hour in
-                        Text("\(hour) ore").tag(hour)
+                        Text("\(hour) hours").tag(hour)
                     }
                 }
                 .pickerStyle(WheelPickerStyle())
                 .labelsHidden()
                 .frame(width: 100)
                 
-                Picker(selection: $timerData.selectedMinutes, label: Text("Seleziona minuti")) {
+                Picker(selection: $timerData.selectedMinutes, label: Text("Select minutes")) {
                     ForEach(0..<60) { minute in
-                        Text("\(minute) minuti").tag(minute)
+                        Text("\(minute) minutes").tag(minute)
                     }
                 }
                 .pickerStyle(WheelPickerStyle())
@@ -34,12 +34,12 @@ struct TimerProgrammingView: View {
             }
             .padding()
             
-            Button("Conferma") {
+            Button("Confirm") {
                 print(timerData.totalSeconds)
                 isTimerProgrammingViewPresented = false
             }
             .padding()
         }
-        .navigationTitle("Modifica timer")
+        .navigationTitle("Edit timer")
     }
 }
